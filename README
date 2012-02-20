@@ -1,0 +1,15 @@
+=== PulseMeter ===
+
+A simple pulse meter circuit for Arduino inspired by medical oximeter design.
+This circuit is based on an IR led and an IR phototransistor.
+
+What is available:
+
+ . an Arduino electronic circuit schema made on Fritzing,
+ . an Arduino sketchbook sampling and sending on serial line the value of
+   the phototransistor
+ . a Python program that display the pulse curve and estimate pulse rate. This
+   program is based on GTK.
+
+Contact: Christophe Augier <christophe.augier@gmail.com>
+
