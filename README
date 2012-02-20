@@ -10,6 +10,8 @@ What is available:
    the phototransistor
  . a Python program that display the pulse curve and estimate pulse rate. This
    program is based on GTK.
+ . a mount ring designed using Sketchup and exported as a stl file. This file
+   can be used to print it using a RepRap for instance.
 
 Contact: Christophe Augier <christophe.augier@gmail.com>
 
