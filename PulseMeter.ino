@@ -1,5 +1,14 @@
-/* version 1
- */
+// PulseMeter.ino
+//
+// Sample ADC value every 50ms. First get the value without the IR led to
+// acquire the ambient light value and then get the value with the IR led
+// switched on. Finaly send the difference on the serial line.
+//
+// Author: Christophe Augier <christophe.augier@gmail.com>
+//
+// This file is licensed under a Creative Commons Attribution 3.0 Unported
+// License.
+//
  
 #define IR_LED     8
 #define PULSE_LED  9
@@ -23,20 +32,6 @@ void loop() {
   digitalWrite(IR_LED, LOW);
   
   // Wait for next sample
-  delay(99);
+  delay(49);
 }
 
-/* version 0
- *
-void setup() {
-  Serial.begin(115200);
-  pinMode(8, OUTPUT);
-  digitalWrite(8, HIGH);
-}
-
-void loop() {
-  int sensorValue = analogRead(A1);
-  Serial.println(sensorValue);
-  delay(100);
-}
-*/

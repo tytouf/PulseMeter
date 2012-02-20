@@ -3,15 +3,18 @@
 A simple pulse meter circuit for Arduino inspired by medical oximeter design.
 This circuit is based on an IR led and an IR phototransistor.
 
-What is available:
+Author: Christophe Augier <christophe.augier@gmail.com>
 
- . an Arduino electronic circuit schema made on Fritzing,
+What files are available:
+
+ . an Arduino electronic circuit schema made on Fritzing (used a photoresistor
+   component in stead of the phototransistor.)
  . an Arduino sketchbook sampling and sending on serial line the value of
-   the phototransistor
+   the phototransistor.
  . a Python program that display the pulse curve and estimate pulse rate. This
    program is based on GTK.
  . a mount ring designed using Sketchup and exported as a stl file. This file
    can be used to print it using a RepRap for instance.
 
-Contact: Christophe Augier <christophe.augier@gmail.com>
 
+All files are licensed under a Creative Commons Attribution 3.0 Unported License.

@@ -10,6 +10,9 @@
 #
 # Author: Christophe Augier <christophe.augier@gmail.com>
 #
+# This file is licensed under a Creative Commons Attribution 3.0 Unported
+# License.
+#
 
 import pygtk
 pygtk.require('2.0')
